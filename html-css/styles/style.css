@@ -1,0 +1,26 @@
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+.sinDecoracion{
+	text-decoration: none;
+}
+
+span {
+	color: red;
+}
+
+.titulo {
+  width:40%;
+  float:left;
+}
+
+.menu{
+  width:40%;
+  float:right;
+}
