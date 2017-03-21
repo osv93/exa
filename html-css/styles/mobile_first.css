@@ -1,0 +1,13 @@
+/* General selectors and styles designed to make the site look good on small MOBILE screens go here. But they affect all devices, and must be overridden by media queries targeting INSCREASINGLY LARGER screens */
+
+@media (min-width: 767px) {
+    /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
+}
+
+@media (min-width: 979px) {
+  /* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
+}
+
+@media (min-width: 1200px) {
+    /* Selectors and styles affecting screens WIDER THAN 1200px (Large Desktop) */
+}
