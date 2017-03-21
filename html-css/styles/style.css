@@ -30,7 +30,7 @@ span {
 
 
 .sectionMain, .SubSectionCenter, .SubSectionRight{
-  width:32%;
+  width:29%;
   float:left;
   margin:10px;
 }
@@ -45,7 +45,8 @@ header {
 
 .container {
 	background-color: green;
-	padding: 0px 0px 700px 0px;
+    overflow-y:auto;
+    height: 100%;
 }
 
 footer {
@@ -55,22 +56,14 @@ footer {
 }
 
 
-html, body {
-    height: 100%;
-}
-.container {
-  min-height: 100%;
-  /* equal to footer height */
-    margin-bottom: -142px; 
-}
-.container:after {
-  content: "";
-  display: block;
-}
-footer, .container:after {
-  /* .push must be the same height as footer */
-    height: 142px; 
-}
+
 footer {
   background: orange;
+    bottom: 0;
+    height: 7%;
+}
+
+
+html, body {
+    height:100%;
 }
