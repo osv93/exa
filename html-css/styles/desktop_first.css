@@ -2,12 +2,43 @@
 
 @media (max-width: 979px) {
   /* Selectors and styles affecting screens UP TO 979px (Desktop) */
+
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+
 }
 
 @media (max-width: 480px) {
     /* Selectors and styles affecting screens UP TO 480px (Phone) */
+	.menu {
+		list-style: none;
+	}
+
+	.menu li {
+		margin-bottom: 3px;  
+	}
+	.menu li a {
+	    display: block;
+	    background: #e4e4e4;
+	    text-decoration: none;
+	    color: #333;
+	    text-align: center;
+	    padding: 10px;
+	  }
+	  .menu li a:hover {
+	    background: #c4c4c4;
+	  }
+
+	  #menuHome a:hover {
+	  	background: #c4c4c4;
+	  }
+	  li:first-child:hover{
+	  	background: #c4c4c4;
+	  }
+
+	  .menu li a:first-child:hover {
+background: #c4c4c4;
+}
 }

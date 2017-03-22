@@ -1,7 +1,30 @@
 /* General selectors and styles designed to make the site look good on small MOBILE screens go here. But they affect all devices, and must be overridden by media queries targeting INSCREASINGLY LARGER screens */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
+	.menu {
+		text-align: center;
+	    float:right;
+	}
+ 	
+ 	.menu li {
+    	display: inline-block; 	
+  	}
+	
+	.titulo{
+		float:left;
+	}
+
+	#menuAbout{
+		border-right:solid 1px;
+		border-left:solid 1px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#menuCourses{
+		border-right:solid 1px;
+		padding-right: 5px;
+	}
 }
 
 @media (min-width: 979px) {
