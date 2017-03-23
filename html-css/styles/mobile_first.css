@@ -1,8 +1,39 @@
 /* General selectors and styles designed to make the site look good on small MOBILE screens go here. But they affect all devices, and must be overridden by media queries targeting INSCREASINGLY LARGER screens */
 
-@media (min-width: 768px) {
-    /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
 	.menu {
+		list-style: none;
+	}
+
+	.menu li {
+		margin-bottom: 3px;  
+	}
+	.menu li a {
+	    display: block;
+	    background: #e4e4e4;
+	    text-align: center;
+	    padding: 10px;
+	    color: blue;
+	  }
+
+		#menuHome > a:visited {
+		    background: #c4c4c4;
+		    text-decoration: none;
+		}
+		#menuHome > a {
+		    text-decoration: none;
+		    color: black;
+		}
+
+	
+
+@media (min-width: 769px) {
+    /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
+
+}
+
+@media (min-width: 979px) {
+  /* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
+      	.menu {
 		text-align: center;
 	    float:right;
 	}
@@ -25,12 +56,22 @@
 		border-right:solid 1px;
 		padding-right: 5px;
 	}
-}
 
-@media (min-width: 979px) {
-  /* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
+	.menu li a {
+		background: #ffffff;
+	    text-align: center;
+	    padding: 2px;
+	}
+
+	#menuHome > a:visited {
+    	background: #ffffff;
+	}
 }
 
 @media (min-width: 1200px) {
     /* Selectors and styles affecting screens WIDER THAN 1200px (Large Desktop) */
 }
+
+
+
+
