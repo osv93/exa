@@ -7,4 +7,27 @@
     .containerImg {
 		display: none;
 	}
+
+	img {
+		display: none;
+	}
+
+	.Footer {
+		display: none;
+	}
+
+	  .wrapper {
+    height: 0%;
+    overflow-y: scroll;
+  }
+      .lineaFooter {
+  margin: 15px;
+    border-top: solid 1px black;
+  }
+  #textoCuadro {
+  border: none;
+background: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }

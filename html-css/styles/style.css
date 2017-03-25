@@ -1,11 +1,3 @@
-header {
-  /*background-color: red;
-  padding: 0px 0px 50px 0px;*/
-}
-
-
-
-
 .titulo h1, .menu{
   margin: 15px;
     font-weight: bold;
@@ -14,17 +6,73 @@ header {
 .titulo h1{
   font-size: 25px;
 }
-
-
-/*
 .sinDecoracion{
-	text-decoration: none;
+  text-decoration: none;
 
 }
 
 span {
-	color: red;
+  color: red;
 }
+
+p {
+      margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+  .SubSectionCenter h4, .SubSectionRight h4 {
+    color: blue;
+      font-size: 25px;
+  }
+
+    .SubSubSection h5 {
+    color: green;
+      font-size: 20px;
+  }
+  .SubSubSubSection h5 {
+    color: green;
+      font-size: 20px;
+  }
+
+  .sectionMain h4{
+      font-size: 25px;
+      font-weight: bold; 
+  }
+b{
+  font-weight: bold;
+}
+
+  .wrapper {
+    height: 85%;
+    overflow-y: scroll;
+  }
+
+    .lineaFooter {
+  margin: 15px;
+    border-top: solid 1px black;
+  }
+
+    footer{
+    height: 10%;
+            text-align: center;
+  }
+
+  footer li {
+      display: inline-block;  
+      color: blue;
+    }
+     footer li a{
+    color: blue;
+    }
+
+    html, body {
+    height: 100%;
+
+    margin: 0;
+  }
+
+/*
+
 
 .titulo{
   float:left;
