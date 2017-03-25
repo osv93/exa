@@ -24,11 +24,51 @@
 		    color: black;
 		}
 
-	
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 25%;
+	    margin: 15px;
+	    background-position: center;
+	}
+
+	.sectionMain, .SubSectionCenter, .SubSectionRight {
+	  	width:100%;
+	  	float:none;
+	  	margin: 0px;
+	}
+
+		img.imgCenter{
+  		width: 100%; 
+  		height: 10%;
+	}
+	.secciones {
+	  	margin: 15px;
+	}
+
+@media (min-width: 480px) {
+    /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 40%;
+	    margin: 15px;
+	    background-position: center;
+	}
+}
 
 @media (min-width: 769px) {
     /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
-
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 45%;
+	    margin: 15px;
+	    background-position: center;
+	}
 }
 
 @media (min-width: 979px) {
@@ -66,10 +106,46 @@
 	#menuHome > a:visited {
     	background: #ffffff;
 	}
+
+
+	    .containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	    background-size: cover;
+	    height: 50%;
+	    margin: 15px;
+	    margin-top: 4%;
+	}
+			.sectionMain, .SubSectionCenter, .SubSectionRight {
+	  	width:31%;
+	  	float:left;
+	  	margin:15px;
+	}
+
+
+	#textoCuadro {
+	  border: solid 2px black;
+	background: orange;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+	.secciones {
+	  	margin: 0px;
+	}
 }
 
 @media (min-width: 1200px) {
     /* Selectors and styles affecting screens WIDER THAN 1200px (Large Desktop) */
+    	    .containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	    background-size: cover;
+	    height: 55%;
+	    margin: 15px;
+	    margin-top: 4%;
+	}
 }
 
 

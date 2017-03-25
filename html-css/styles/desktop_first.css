@@ -44,27 +44,24 @@
 	    margin-top: 4%;
 	}
 
-	img.imgCenter{
-  		width: 100%; 
-  		height: 10%;
-	}
-
-
-	.sectionMain, .SubSectionCenter, .SubSectionRight {
+		.sectionMain, .SubSectionCenter, .SubSectionRight {
 	  	width:31%;
 	  	float:left;
 	  	margin:15px;
 	}
 
 
-#textoCuadro {
-  border: solid 2px black;
-background: orange;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+	#textoCuadro {
+	  border: solid 2px black;
+	background: orange;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
 
-
+	img.imgCenter{
+  		width: 100%; 
+  		height: 10%;
+	}
 
 
 @media (max-width: 979px) {
