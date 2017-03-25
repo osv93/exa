@@ -34,6 +34,62 @@
 	   	color: blue;
 	}
 
+	/*img .imgMain{
+	    width: 100%;
+	    height: auto;
+	    display: none;
+	}*/
+
+	.wrapper {
+		height: 90%;
+		overflow-y: scroll;
+	}
+
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	    background-size: cover;
+	    height: 50%;
+	    margin: 15px;
+	    margin-top: 4%;
+	}
+
+	img.imgCenter{
+  		width: 100%; 
+  		height: 10%;
+	}
+
+
+	.sectionMain, .SubSectionCenter, .SubSectionRight{
+	  	width:31%;
+	  	float:left;
+	  	margin:15px;
+	}
+
+	.secciones {
+	  	background-color: yellow; 
+	  	margin: 15px;
+	}
+
+
+.lineaFooter {
+    text-align: center;
+}
+.Footer {
+	margin: 15px;
+	padding: 10px;
+}
+
+ 	footer li {
+    	display: inline-block; 	
+  	}
+
+  	html, body {
+  height: 100%;
+  margin: 0;
+}
+
 @media (max-width: 979px) {
   /* Selectors and styles affecting screens UP TO 979px (Desktop) */
 	.menu {
@@ -66,18 +122,84 @@
 	    float:none ;
 	}
 
-		.titulo{
+	.titulo{
 		float:none;
 	}
+
+
+	/*.wrapper {
+		height: 500px;
+		overflow-y:scroll;
+	}*/
+
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	    background-size: cover;
+	    height: 50%;
+	    margin: 15px;
+	}
+	/*.container {
+		margin: 15px;
+		height: 200px;
+		background: red;
+	}*/
+
+	/*img.imgCenter{
+  		width: 100%; 
+  		height: 10%;
+	}*/
+
+
+	/*.sectionMain, .SubSectionCenter, .SubSectionRight{
+	  	width:29%;
+	  	float:left;
+	  	margin:10px;
+	}*/
+
+	/*.secciones {
+	  	background-color: yellow; 
+	  	margin: 0px;
+	}*/
 }
 
 @media (max-width: 768px) {
     /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+    .containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	    background-size: cover;
+	    height: 50%;
+	    margin: 15px;
+
+	}
 
 }
 
 @media (max-width: 480px) {
     /* Selectors and styles affecting screens UP TO 480px (Phone) */
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 30%;
+	    margin: 15px;
+	    background-position: center;
+	}
 
+}
+
+@media (max-width: 350px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+	.containerImg {
+		background: url("../images/imagen.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 25%;
+	    margin: 15px;
+	    background-position: center;
+	}
 
 }
