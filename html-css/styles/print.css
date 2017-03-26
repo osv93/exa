@@ -35,7 +35,7 @@ span {
 	color: red;
 }
 
-.SubSectionCenter h2, .SubSectionRight h4 {
+.SubSectionCenter h2, .SubSectionRight h2 {
     color: rgba(0, 124, 255, 0.81);   
 	font-size: 25px;
 }
