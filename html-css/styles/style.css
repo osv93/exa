@@ -38,7 +38,7 @@
     font-size: 25px;
   }
 
-  .SubSectionCenter h4, .SubSectionRight h4 {
+  .SubSectionCenter h2, .SubSectionRight h4 {
     color: rgba(0, 124, 255, 0.81);    
     font-size: 22px;
     font-weight: bold;

@@ -35,19 +35,19 @@ span {
 	color: red;
 }
 
-.SubSectionCenter h4, .SubSectionRight h4 {
+.SubSectionCenter h2, .SubSectionRight h4 {
     color: rgba(0, 124, 255, 0.81);   
 	font-size: 25px;
 }
 
-.SubSectionCenter h4::after  {
+.SubSectionCenter h2::after  {
 	content: "Sub-section";
 	text-indent: 0;
 	display: block;
 	line-height: initial;
 }
 
-.SubSectionCenter h4 {
+.SubSectionCenter h2 {
 	text-indent: -9999px;
 	line-height: 0;
 }
