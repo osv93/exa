@@ -22,10 +22,7 @@
 }
 .menuHome > a {
 	text-decoration: none;
-	color: black;
 }
-
-
 
 .sectionMain, .SubSectionCenter, .SubSectionRight {
 	width:100%;
@@ -51,7 +48,7 @@ img.imgCenter{
 
 }
 
-@media (min-width: 979px) {
+@media (min-width: 1044px) {
 	/* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
 	.menu {
 		text-align: center;
@@ -60,10 +57,6 @@ img.imgCenter{
 
 	.menu li {
 		display: inline-block; 	
-	}
-	
-	.titulo{
-		float:left;
 	}
 
 	.menuAbout{
@@ -87,8 +80,10 @@ img.imgCenter{
 	.menuHome > a:visited {
 		background: #ffffff;
 	}
-
-
+	
+	.titulo{
+		float:left;
+	}
 
 	.SubSectionCenter, .SubSectionRight {
 		width:25%;

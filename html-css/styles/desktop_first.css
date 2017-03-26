@@ -39,6 +39,10 @@ Coloca lineas entre cada opcion del menu.
 	color: black;
 }
 
+.menuHome > a:visited {
+	color: black;
+}
+
 .menu li a {
 	background: #ffffff;
 	text-align: center;
@@ -46,22 +50,17 @@ Coloca lineas entre cada opcion del menu.
 	color: blue;
 }
 
-.containerImg {
-	background: url("../images/imagen.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 50%;
-	margin: 15px;
-	margin-top: 4%;
-}
-
-.sectionMain, .SubSectionCenter, .SubSectionRight {
-	width:31%;
+.SubSectionCenter, .SubSectionRight {
+	width:25%;
 	float:left;
 	margin:15px;
 }
 
+.sectionMain {
+	width:40%;
+	float:left;
+	margin:15px;
+}
 
 #textoCuadro {
 	border: solid 2px black;
@@ -112,15 +111,6 @@ img.imgCenter{
 		float:none;
 	}
 
-	.containerImg {
-		background: url("../images/imagen.png");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		height: 50%;
-		margin: 15px;
-	}
-
 	.sectionMain, .SubSectionCenter, .SubSectionRight {
 		width:100%;
 		float:none;
@@ -140,16 +130,6 @@ la imagen principal a un tamaño adecuado.
 
 @media (max-width: 768px) {
 	/* Selectors and styles affecting screens UP TO 767px (Tablet) */
-	.containerImg {
-		background: url("../images/imagen.png");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		height: 50%;
-		margin: 15px;
-
-	}
-
 }
 
 /*
@@ -158,14 +138,6 @@ la imagen principal a un tamaño adecuado.
 */
 @media (max-width: 480px) {
 	/* Selectors and styles affecting screens UP TO 480px (Phone) */
-	.containerImg {
-		background: url("../images/imagen.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 30%;
-		margin: 15px;
-		background-position: center;
-	}
 
 }
 
@@ -175,13 +147,5 @@ la imagen principal a un tamaño adecuado.
 */
 @media (max-width: 350px) {
 	/* Selectors and styles affecting screens UP TO 480px (Phone) */
-	.containerImg {
-		background: url("../images/imagen.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 25%;
-		margin: 15px;
-		background-position: center;
-	}
 
 }
