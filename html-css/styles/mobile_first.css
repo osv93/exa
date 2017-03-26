@@ -1,52 +1,45 @@
 /* General selectors and styles designed to make the site look good on small MOBILE screens go here. But they affect all devices, and must be overridden by media queries targeting INSCREASINGLY LARGER screens */
 
-.menu {
-	list-style: none;
-}
+/*
+ E
+*/
+	.menu {
+		list-style: none;
+	}
 
-.menu li {
-	margin-bottom: 3px;  
-}
-.menu li a {
-	display: block;
-	background: #e4e4e4;
-	text-align: center;
-	padding: 10px;
-	color: blue;
-}
+	.menu li {
+		margin-bottom: 3px;  
+	}
+	.menu li a {
+		display: block;
+		background: #e4e4e4;
+		text-align: center;
+		padding: 10px;
+		color: blue;
+	}
 
-.menuHome > a:visited {
-	background: #c4c4c4;
-	text-decoration: none;
-	color: black;
-}
-.menuHome > a {
-	text-decoration: none;
-}
+	.menuHome > a:visited {
+		background: #c4c4c4;
+		text-decoration: none;
+		color: black;
+	}
+	.menuHome > a {
+		text-decoration: none;
+	}
 
-.sectionMain, .SubSectionCenter, .SubSectionRight {
-	width:100%;
-	float:none;
-	margin: 0px;
-}
+	.sectionMain, .SubSectionCenter, .SubSectionRight {
+		width:100%;
+		float:none;
+		margin: 0px;
+	}
 
-img.imgCenter{
-	width: 100%; 
-	height: 10%;
-}
-.secciones {
-	margin: 15px;
-}
-
-@media (min-width: 480px) {
-	/* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
-
-}
-
-@media (min-width: 769px) {
-	/* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
-
-}
+	img.imgCenter{
+		width: 100%; 
+		height: 10%;
+	}
+	.secciones {
+		margin: 15px;
+	}
 
 @media (min-width: 1044px) {
 	/* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
@@ -107,12 +100,6 @@ img.imgCenter{
 		margin: 0px;
 	}
 }
-
-@media (min-width: 1200px) {
-	/* Selectors and styles affecting screens WIDER THAN 1200px (Large Desktop) */
-
-}
-
 
 
 

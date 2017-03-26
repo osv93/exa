@@ -44,12 +44,12 @@ span {
 	content: "Sub-section";
 	text-indent: 0;
 	display: block;
-	line-height: initial; /* New content takes up original line height */
+	line-height: initial;
 }
 
 .SubSectionCenter h4 {
 	text-indent: -9999px;
-	line-height: 0; /* Collapse the original line */
+	line-height: 0;
 }
 
 .SubSubSection h5 {

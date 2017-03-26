@@ -12,6 +12,11 @@
     color: blue;
   }
 
+  .Footer {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
   html, body {
     height: 100%;
     margin: 0;

@@ -77,6 +77,8 @@ img.imgCenter{
 
 @media (max-width: 979px) {
 	/* Selectors and styles affecting screens UP TO 979px (Desktop) */
+
+	/*Estructura para el menu y el titulo Izquierdo*/
 	.menu {
 		list-style: none;
 	}
@@ -111,6 +113,7 @@ img.imgCenter{
 		float:none;
 	}
 
+	/*Estructura para el contenido donde estan los párrafos*/
 	.sectionMain, .SubSectionCenter, .SubSectionRight {
 		width:100%;
 		float:none;
@@ -120,32 +123,4 @@ img.imgCenter{
 	.secciones {
 		margin: 15px;
 	}
-}
-
-
-/*
-Por cada vez que se va haciendo la pantalla mas pequeña, se va ajustando
-la imagen principal a un tamaño adecuado.
-*/
-
-@media (max-width: 768px) {
-	/* Selectors and styles affecting screens UP TO 767px (Tablet) */
-}
-
-/*
-Por cada vez que se va haciendo la pantalla mas pequeña, se va ajustando
-la imagen principal a un tamaño adecuado.
-*/
-@media (max-width: 480px) {
-	/* Selectors and styles affecting screens UP TO 480px (Phone) */
-
-}
-
-/*
-Por cada vez que se va haciendo la pantalla mas pequeña, se va ajustando
-la imagen principal a un tamaño adecuado.
-*/
-@media (max-width: 350px) {
-	/* Selectors and styles affecting screens UP TO 480px (Phone) */
-
 }
