@@ -52,12 +52,12 @@ span {
 	line-height: 0;
 }
 
-.SubSubSection h5 {
+.SubSubSection h3 {
 	color: green;
 	font-size: 20px;
 }
 
-.SubSubSubSection h5 {
+.SubSubSubSection h4 {
 	color: red;
 	font-size: 20px;
 }
