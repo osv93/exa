@@ -1,71 +1,83 @@
 /* General selectors and styles designed to make the site look good on DESKTOP screens go here. But they affect all devices, and must be overridden by media queries targeting INCREASINGLY SMALLER screens */
-     .menu {
-		text-align: center;
-	    float:right;
-	}
 
-		.titulo{
-		float:left;
-	}
- 	
- 	.menu li {
-    	display: inline-block; 	
-  	}
+/*
+Coloca el menu de navegacion a la derecha
+cuando se tiene la pantalla completa en la computadora.
+*/
+.menu {
+	text-align: center;
+	float:right;
+}
 
-	#menuAbout{
-		border-right:solid 1px;
-		border-left:solid 1px;
-		padding-right: 5px;
-		padding-left: 5px;
-	}
-	#menuCourses{
-		border-right:solid 1px;
-		padding-right: 5px;
-	}
-			#menuHome > a {
-		    text-decoration: none;
-		    color: black;
-		}
+/*
+Coloca el titulo a la izquierda
+cuando se tiene la pantalla completa en la computadora.
+*/
+.titulo{
+	float:left;
+}
 
-	.menu li a {
-		background: #ffffff;
-	    text-align: center;
-	    padding: 2px;
-	   	color: blue;
-	}
+.menu li {
+	display: inline-block; 	
+}
 
-	.containerImg {
-		background: url("../images/imagen.png");
-		background-repeat: no-repeat;
-		background-position: center;
-	    background-size: cover;
-	    height: 50%;
-	    margin: 15px;
-	    margin-top: 4%;
-	}
+/*
+Coloca lineas entre cada opcion del menu.
+*/
+.menuAbout{
+	border-right:solid 1px;
+	border-left:solid 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.menuCourses{
+	border-right:solid 1px;
+	padding-right: 5px;
+}
+.menuHome > a {
+	text-decoration: none;
+	color: black;
+}
 
-		.sectionMain, .SubSectionCenter, .SubSectionRight {
-	  	width:31%;
-	  	float:left;
-	  	margin:15px;
-	}
+.menu li a {
+	background: #ffffff;
+	text-align: center;
+	padding: 2px;
+	color: blue;
+}
+
+.containerImg {
+	background: url("../images/imagen.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 50%;
+	margin: 15px;
+	margin-top: 4%;
+}
+
+.sectionMain, .SubSectionCenter, .SubSectionRight {
+	width:31%;
+	float:left;
+	margin:15px;
+}
 
 
-	#textoCuadro {
-	  border: solid 2px black;
+#textoCuadro {
+	border: solid 2px black;
 	background: orange;
-	    margin-top: 10px;
-	    margin-bottom: 10px;
-	}
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
-	img.imgCenter{
-  		width: 100%; 
-  		height: 10%;
-	}
+img.imgCenter{
+	width: 100%; 
+	height: 10%;
+}
 
 
 @media (max-width: 979px) {
-  /* Selectors and styles affecting screens UP TO 979px (Desktop) */
+	/* Selectors and styles affecting screens UP TO 979px (Desktop) */
 	.menu {
 		list-style: none;
 	}
@@ -75,25 +87,25 @@
 		display: block;
 	}
 	.menu li a {
-	    display: block;
-	    background: #e4e4e4;
-	    text-align: center;
-	    padding: 10px;
-	  }
-	#menuAbout{
+		display: block;
+		background: #e4e4e4;
+		text-align: center;
+		padding: 10px;
+	}
+	.menuAbout{
 		border-right:none;
 		border-left:none;
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-	#menuCourses{
+	.menuCourses{
 		border-right:none;
 		padding-right: 0px;
 	}
 
 	.menu {
 		text-align: center;
-	    float:none ;
+		float:none ;
 	}
 
 	.titulo{
@@ -104,58 +116,72 @@
 		background: url("../images/imagen.png");
 		background-repeat: no-repeat;
 		background-position: center;
-	    background-size: cover;
-	    height: 50%;
-	    margin: 15px;
+		background-size: cover;
+		height: 50%;
+		margin: 15px;
 	}
 
 	.sectionMain, .SubSectionCenter, .SubSectionRight {
-	  	width:100%;
-	  	float:none;
-	  	margin: 0px;
+		width:100%;
+		float:none;
+		margin: 0px;
 	}
 
 	.secciones {
-	  	margin: 15px;
+		margin: 15px;
 	}
 }
 
+
+/*
+Por cada vez que se va haciendo la pantalla mas pequeña, se va ajustando
+la imagen principal a un tamaño adecuado.
+*/
+
 @media (max-width: 768px) {
-    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
-    .containerImg {
+	/* Selectors and styles affecting screens UP TO 767px (Tablet) */
+	.containerImg {
 		background: url("../images/imagen.png");
 		background-repeat: no-repeat;
 		background-position: center;
-	    background-size: cover;
-	    height: 50%;
-	    margin: 15px;
+		background-size: cover;
+		height: 50%;
+		margin: 15px;
 
 	}
 
 }
 
+/*
+Por cada vez que se va haciendo la pantalla mas pequeña, se va ajustando
+la imagen principal a un tamaño adecuado.
+*/
 @media (max-width: 480px) {
-    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+	/* Selectors and styles affecting screens UP TO 480px (Phone) */
 	.containerImg {
 		background: url("../images/imagen.png");
 		background-repeat: no-repeat;
-	    background-size: cover;
-	    height: 30%;
-	    margin: 15px;
-	    background-position: center;
+		background-size: cover;
+		height: 30%;
+		margin: 15px;
+		background-position: center;
 	}
 
 }
 
+/*
+Por cada vez que se va haciendo la pantalla mas pequeña, se va ajustando
+la imagen principal a un tamaño adecuado.
+*/
 @media (max-width: 350px) {
-    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+	/* Selectors and styles affecting screens UP TO 480px (Phone) */
 	.containerImg {
 		background: url("../images/imagen.png");
 		background-repeat: no-repeat;
-	    background-size: cover;
-	    height: 25%;
-	    margin: 15px;
-	    background-position: center;
+		background-size: cover;
+		height: 25%;
+		margin: 15px;
+		background-position: center;
 	}
 
 }

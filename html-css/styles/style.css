@@ -1,132 +1,85 @@
-.titulo h1, .menu{
-  margin: 15px;
+    footer {
+    height: 10%;
+    text-align: center;
+  }
+
+  footer li {
+    display: inline-block;  
+    color: blue;
+  }
+
+  footer li a {
+    color: blue;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body
+  {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .titulo h1, .menu{
+    margin: 15px;
     font-weight: bold;
-}
+  }
 
-.titulo h1{
-  font-size: 25px;
-}
-.sinDecoracion{
-  text-decoration: none;
-
-}
-
-span {
-  color: red;
-}
-
-p {
-      margin-top: 10px;
-    margin-bottom: 10px;
-}
+  .titulo h1{
+    font-size: 25px;
+  }
 
   .SubSectionCenter h4, .SubSectionRight h4 {
-    color: blue;
-      font-size: 25px;
+    color: blue;    
+    font-size: 25px;
   }
 
-    .SubSubSection h5 {
+  .SubSubSection h5 {
     color: green;
-      font-size: 20px;
+    font-size: 20px;
   }
+
   .SubSubSubSection h5 {
-    color: green;
-      font-size: 20px;
+    color: red;
+    font-size: 20px;
   }
-
-  .sectionMain h4{
-      font-size: 25px;
-      font-weight: bold; 
-  }
-b{
-  font-weight: bold;
-}
 
   .wrapper {
     height: 85%;
     overflow-y: scroll;
   }
 
-    .lineaFooter {
-  margin: 15px;
+  .sinDecoracion{
+    text-decoration: none;
+  }
+
+  span {
+    color: red;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sectionMain h4{
+    font-size: 25px;
+    font-weight: bold; 
+  }
+
+  b {
+    font-weight: bold;
+  }
+
+  .lineaFooter {
+    margin: 15px;
     border-top: solid 1px black;
   }
 
-    footer{
-    height: 10%;
-            text-align: center;
+  .containerImg {
+    margin: 15px;
   }
-
-  footer li {
-      display: inline-block;  
-      color: blue;
-    }
-     footer li a{
-    color: blue;
-    }
-
-    html, body {
-    height: 100%;
-
-    margin: 0;
-  }
-
-/*
-
-
-.titulo{
-  float:left;
-
-}
-
-.titulo h1, #menu{
-  margin: 15px;
-}
-
-#menu {
-
-  float:right;
-}
-
-.sectionMain, .SubSectionCenter, .SubSectionRight{
-  width:29%;
-  float:left;
-  margin:10px;
-}
-
-.container {
-  background-color: green;
-    overflow-y:auto;
-    height: 100%;
-}
-
-.secciones {
-	background-color: yellow; 
-}
-
-header {
-	background-color: red;
-	padding: 0px 0px 50px 0px;
-}
-
-
-
-footer {
-	background-color: orange;
-	padding: 0px 0px 40px 0px;
-	text-align: center;
-}
-
-
-
-footer {
-  background: orange;
-    bottom: 0;
-    height: 7%;
-}
-
-
-html, body {
-    height:100%;
-}
-*/

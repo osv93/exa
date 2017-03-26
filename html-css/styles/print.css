@@ -1,33 +1,67 @@
-@media only screen and (min-width: 641px) and (max-width: 666px) {
-    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
-    .menu {
-    	display: none;
-    }
 
-    .containerImg {
-		display: none;
-	}
-
-	img {
-		display: none;
-	}
-
-	.Footer {
-		display: none;
-	}
-
-	  .wrapper {
-    height: 0%;
-    overflow-y: scroll;
-  }
-      .lineaFooter {
-  margin: 15px;
-    border-top: solid 1px black;
-  }
-  #textoCuadro {
-  border: none;
-background: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.menu {
+	display: none;
 }
+
+.containerImg {
+	display: none;
+}
+
+img {
+	display: none;
+}
+
+img.imgCenter{
+	display: none;
+}
+
+.Footer {
+	display: none;
+}
+
+.lineaFooter {
+	margin: 15px;
+	border-top: solid 1px black;
+}
+
+#textoCuadro {
+	border: none;
+	background: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+span {
+	color: red;
+}
+
+.SubSectionCenter h4, .SubSectionRight h4 {
+	color: blue;    
+	font-size: 25px;
+}
+
+.SubSectionCenter h4::after  {
+	content: "Sub-section";
+	text-indent: 0;
+	display: block;
+	line-height: initial; /* New content takes up original line height */
+}
+
+.SubSectionCenter h4 {
+	text-indent: -9999px;
+	line-height: 0; /* Collapse the original line */
+}
+
+.SubSubSection h5 {
+	color: green;
+	font-size: 20px;
+}
+
+.SubSubSubSection h5 {
+	color: red;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
 }
